@@ -114,6 +114,11 @@ static NSValue *rb_tabBarRectValue;
     }
 }
 
+- (BOOL)rb_fullScreenPopGestureEnable
+{
+    return  [self contentViewController].rb_fullScreenPopGestureEnable;
+}
+
 - (BOOL)hidesBottomBarWhenPushed
 {
     return [self contentViewController].hidesBottomBarWhenPushed;

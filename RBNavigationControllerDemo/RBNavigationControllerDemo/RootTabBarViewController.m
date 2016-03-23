@@ -21,17 +21,17 @@
     // Do any additional setup after loading the view, typically from a nib.
     RBFirstViewController *firstVC = [[RBFirstViewController alloc] init];
     UITabBarItem *firstItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemFavorites tag:1];
-    firstVC.title = @"First";
+    firstVC.title = @"单个";
     firstVC.tabBarItem = firstItem;
     RBNavigationController *firstNav = [[RBNavigationController alloc] initWithRootViewController:firstVC];
 //    firstNav.fullScreenPopGestureEnabled = YES;
     
     RBFirstViewController *secondVC = [[RBFirstViewController alloc] init];
     UITabBarItem *secondItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemTopRated tag:2];
-    secondVC.title = @"Second";
+    secondVC.title = @"全局";
     secondVC.tabBarItem = secondItem;
     RBNavigationController *secondNav = [[RBNavigationController alloc] initWithRootViewController:secondVC];
-//    secondNav.fullScreenPopGestureEnabled = NO;
+    secondNav.fullScreenPopGestureEnabled = YES;
     
     self.viewControllers = @[firstNav, secondNav];
 }
