@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BF2718A1CA22F1200EC2975 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF271891CA22F1200EC2975 /* main.m */; };
+		4BF2718D1CA22F1200EC2975 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF2718C1CA22F1200EC2975 /* AppDelegate.m */; };
+		4BF271901CA22F1200EC2975 /* RootTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF2718F1CA22F1200EC2975 /* RootTabBarViewController.m */; };
+		4BF271931CA22F1200EC2975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF271911CA22F1200EC2975 /* Main.storyboard */; };
+		4BF271951CA22F1200EC2975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF271941CA22F1200EC2975 /* Assets.xcassets */; };
+		4BF271981CA22F1200EC2975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF271961CA22F1200EC2975 /* LaunchScreen.storyboard */; };
+		4BF271A21CA22F9700EC2975 /* RBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF271A11CA22F9700EC2975 /* RBNavigationController.m */; };
+		4BF271A61CA2304B00EC2975 /* UIViewController+RBNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF271A51CA2304B00EC2975 /* UIViewController+RBNavigation.m */; };
+		4BF271A91CA23AAA00EC2975 /* RBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF271A81CA23AAA00EC2975 /* RBFirstViewController.m */; };
+		4BF271AC1CA23ABD00EC2975 /* RBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF271AB1CA23ABD00EC2975 /* RBSecondViewController.m */; };
+		4BF271AF1CA23ACE00EC2975 /* RBThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF271AE1CA23ACE00EC2975 /* RBThirdViewController.m */; };
+		4BF271B21CA23ADD00EC2975 /* RBFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF271B11CA23ADD00EC2975 /* RBFourViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4BF271851CA22F1200EC2975 /* RBNavigationControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RBNavigationControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF271891CA22F1200EC2975 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BF2718B1CA22F1200EC2975 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4BF2718C1CA22F1200EC2975 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4BF2718E1CA22F1200EC2975 /* RootTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootTabBarViewController.h; sourceTree = "<group>"; };
+		4BF2718F1CA22F1200EC2975 /* RootTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTabBarViewController.m; sourceTree = "<group>"; };
+		4BF271921CA22F1200EC2975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BF271941CA22F1200EC2975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BF271971CA22F1200EC2975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BF271991CA22F1200EC2975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF271A01CA22F9700EC2975 /* RBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBNavigationController.h; sourceTree = "<group>"; };
+		4BF271A11CA22F9700EC2975 /* RBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBNavigationController.m; sourceTree = "<group>"; };
+		4BF271A41CA2304B00EC2975 /* UIViewController+RBNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RBNavigation.h"; sourceTree = "<group>"; };
+		4BF271A51CA2304B00EC2975 /* UIViewController+RBNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RBNavigation.m"; sourceTree = "<group>"; };
+		4BF271A71CA23AAA00EC2975 /* RBFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBFirstViewController.h; sourceTree = "<group>"; };
+		4BF271A81CA23AAA00EC2975 /* RBFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBFirstViewController.m; sourceTree = "<group>"; };
+		4BF271AA1CA23ABD00EC2975 /* RBSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBSecondViewController.h; sourceTree = "<group>"; };
+		4BF271AB1CA23ABD00EC2975 /* RBSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBSecondViewController.m; sourceTree = "<group>"; };
+		4BF271AD1CA23ACE00EC2975 /* RBThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBThirdViewController.h; sourceTree = "<group>"; };
+		4BF271AE1CA23ACE00EC2975 /* RBThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBThirdViewController.m; sourceTree = "<group>"; };
+		4BF271B01CA23ADD00EC2975 /* RBFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBFourViewController.h; sourceTree = "<group>"; };
+		4BF271B11CA23ADD00EC2975 /* RBFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBFourViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BF271821CA22F1200EC2975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BF2717C1CA22F1200EC2975 = {
+			isa = PBXGroup;
+			children = (
+				4BF2719F1CA22F5A00EC2975 /* RBNavigationController */,
+				4BF271871CA22F1200EC2975 /* RBNavigationControllerDemo */,
+				4BF271861CA22F1200EC2975 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BF271861CA22F1200EC2975 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BF271851CA22F1200EC2975 /* RBNavigationControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BF271871CA22F1200EC2975 /* RBNavigationControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4BF2718B1CA22F1200EC2975 /* AppDelegate.h */,
+				4BF2718C1CA22F1200EC2975 /* AppDelegate.m */,
+				4BF2718E1CA22F1200EC2975 /* RootTabBarViewController.h */,
+				4BF2718F1CA22F1200EC2975 /* RootTabBarViewController.m */,
+				4BF271911CA22F1200EC2975 /* Main.storyboard */,
+				4BF271941CA22F1200EC2975 /* Assets.xcassets */,
+				4BF271961CA22F1200EC2975 /* LaunchScreen.storyboard */,
+				4BF271991CA22F1200EC2975 /* Info.plist */,
+				4BF271881CA22F1200EC2975 /* Supporting Files */,
+				4BF271A71CA23AAA00EC2975 /* RBFirstViewController.h */,
+				4BF271A81CA23AAA00EC2975 /* RBFirstViewController.m */,
+				4BF271AA1CA23ABD00EC2975 /* RBSecondViewController.h */,
+				4BF271AB1CA23ABD00EC2975 /* RBSecondViewController.m */,
+				4BF271AD1CA23ACE00EC2975 /* RBThirdViewController.h */,
+				4BF271AE1CA23ACE00EC2975 /* RBThirdViewController.m */,
+				4BF271B01CA23ADD00EC2975 /* RBFourViewController.h */,
+				4BF271B11CA23ADD00EC2975 /* RBFourViewController.m */,
+			);
+			path = RBNavigationControllerDemo;
+			sourceTree = "<group>";
+		};
+		4BF271881CA22F1200EC2975 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BF271891CA22F1200EC2975 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BF2719F1CA22F5A00EC2975 /* RBNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				4BF271A01CA22F9700EC2975 /* RBNavigationController.h */,
+				4BF271A11CA22F9700EC2975 /* RBNavigationController.m */,
+				4BF271A41CA2304B00EC2975 /* UIViewController+RBNavigation.h */,
+				4BF271A51CA2304B00EC2975 /* UIViewController+RBNavigation.m */,
+			);
+			path = RBNavigationController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BF271841CA22F1200EC2975 /* RBNavigationControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF2719C1CA22F1200EC2975 /* Build configuration list for PBXNativeTarget "RBNavigationControllerDemo" */;
+			buildPhases = (
+				4BF271811CA22F1200EC2975 /* Sources */,
+				4BF271821CA22F1200EC2975 /* Frameworks */,
+				4BF271831CA22F1200EC2975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RBNavigationControllerDemo;
+			productName = RBNavigationControllerDemo;
+			productReference = 4BF271851CA22F1200EC2975 /* RBNavigationControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BF2717D1CA22F1200EC2975 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Liuonion;
+				TargetAttributes = {
+					4BF271841CA22F1200EC2975 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4BF271801CA22F1200EC2975 /* Build configuration list for PBXProject "RBNavigationControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BF2717C1CA22F1200EC2975;
+			productRefGroup = 4BF271861CA22F1200EC2975 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BF271841CA22F1200EC2975 /* RBNavigationControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BF271831CA22F1200EC2975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF271981CA22F1200EC2975 /* LaunchScreen.storyboard in Resources */,
+				4BF271951CA22F1200EC2975 /* Assets.xcassets in Resources */,
+				4BF271931CA22F1200EC2975 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BF271811CA22F1200EC2975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF271AF1CA23ACE00EC2975 /* RBThirdViewController.m in Sources */,
+				4BF271901CA22F1200EC2975 /* RootTabBarViewController.m in Sources */,
+				4BF271A61CA2304B00EC2975 /* UIViewController+RBNavigation.m in Sources */,
+				4BF271AC1CA23ABD00EC2975 /* RBSecondViewController.m in Sources */,
+				4BF2718D1CA22F1200EC2975 /* AppDelegate.m in Sources */,
+				4BF271A91CA23AAA00EC2975 /* RBFirstViewController.m in Sources */,
+				4BF271B21CA23ADD00EC2975 /* RBFourViewController.m in Sources */,
+				4BF2718A1CA22F1200EC2975 /* main.m in Sources */,
+				4BF271A21CA22F9700EC2975 /* RBNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BF271911CA22F1200EC2975 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF271921CA22F1200EC2975 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BF271961CA22F1200EC2975 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF271971CA22F1200EC2975 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BF2719A1CA22F1200EC2975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4BF2719B1CA22F1200EC2975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BF2719D1CA22F1200EC2975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RBNavigationControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.liushuai.RBNavigationControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4BF2719E1CA22F1200EC2975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RBNavigationControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.liushuai.RBNavigationControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BF271801CA22F1200EC2975 /* Build configuration list for PBXProject "RBNavigationControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF2719A1CA22F1200EC2975 /* Debug */,
+				4BF2719B1CA22F1200EC2975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF2719C1CA22F1200EC2975 /* Build configuration list for PBXNativeTarget "RBNavigationControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF2719D1CA22F1200EC2975 /* Debug */,
+				4BF2719E1CA22F1200EC2975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BF2717D1CA22F1200EC2975 /* Project object */;
+}
